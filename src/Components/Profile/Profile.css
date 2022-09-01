@@ -1,0 +1,21 @@
+.profile{
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Acc-logout{
+    width: 120px;
+    height: 40px;
+    background: red;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    transition: all 0.2s 0.2s;
+}
+
+.Acc-logout:hover{
+    transform: scale(1.3,1.3);
+}

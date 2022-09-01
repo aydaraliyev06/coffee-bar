@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext, useState } from 'react';
+import { useParams } from 'react-router-dom';
+import Footer from './Components/Footer/Footer';
+import AuthContextProvider, { authContext } from './context/AuthContext';
+import CartContextProvider from './context/CartContextProvider';
+import ProductContexProvider from './context/ProductContexProvider';
+import RecommendContextProvider from './context/RecommendContextProvider';
+import Router from './context/Router';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AuthContextProvider>
+      <ProductContexProvider>
+        <CartContextProvider>
+          <RecommendContextProvider>
+            <Router/>
+            <Footer/>
+          </RecommendContextProvider>
+        </CartContextProvider>
+      </ProductContexProvider>
+    </AuthContextProvider>
   );
-}
+};
 
 export default App;

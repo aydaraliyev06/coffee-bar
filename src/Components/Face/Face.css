@@ -1,0 +1,28 @@
+.face{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://lifehacker.ru/wp-content/uploads/2013/10/48888_1485427871-scaled.jpg');
+}
+
+.face-white{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1090px;
+    background: rgba(245, 222, 179, 0.342);
+}
+
+@media all and (max-width: 1400px){
+    .face-white{
+        height: 597px;
+    }
+}
+
+@media all and (max-width: 800px){
+    .face-white{
+        height: 600px;
+    }
+}

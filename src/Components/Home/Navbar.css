@@ -1,0 +1,164 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.navbar-box{
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    background: #834d1e;
+    border-radius: 40px;
+    padding: 40px 60px;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1400px){
+    .navbar-box{
+        width: 70% !important;
+    }
+
+    .products{
+        width: 70% !important;
+    }
+
+    .inshop-card{
+        width: 80% !important;
+    }
+}
+
+.navbar-box-h5{
+    color: #fcf2de;
+    font-size: 20px;
+}
+
+.navbar-box-h1{
+    color: #fcf2de;
+    font-size: 40px;
+}
+
+.navbar-box-text-link{
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fcf2de;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.navbar-box-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.img-navbar{
+    width: 320px;
+    border-radius: 20px;
+}
+
+.inshop{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 35px;
+}
+
+.inshop-title{
+    margin-right: 750px;
+}
+
+@media all and (max-width: 1300px){
+    .inshop-title{
+        margin-right: 500px;
+    }
+}
+
+.inshop-card{
+    width: 57%;
+    min-width: 300px;
+    display: flex;
+    background: #834d1e;
+    border-radius: 40px;
+    /* padding: 40px 60px; */
+    justify-content: space-between;
+    background: url('https://funart.pro/uploads/posts/2021-12/thumbs/1640368196_59-funart-pro-p-foni-s-limonadami-69.jpg');
+    background-size: cover;
+    height: 430px;
+}
+
+.inshop-card-back{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 60px;
+    height: 350px;
+    background: linear-gradient(90deg, rgba(241,255,0,0.3785889355742297) 3%, rgba(0,241,255,0.40940126050420167) 30%, rgba(0,241,255,0) 52%);
+    border-radius: 40px;
+}
+
+.inshop-card-back-title{
+    font-size: 50px;
+    color: rgba(255, 244, 223, 0.966);
+}
+
+.inshop-card-back-sub{
+    font-size: 25px;
+    color: rgba(255, 244, 223, 0.966);
+}
+
+.products{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 40px;
+}
+
+.text-recommend{
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.product-box{
+    display: flex;
+    column-gap: 20px;
+}
+
+.products-one{
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+
+.product-one-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 40px 40px;
+    width: 165px;
+    height: 220px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(2,0,36,0) 55%, rgba(131,77,28,1) 100%);
+}
+
+.product-title{
+    font-size: 25px;
+    color: #fcf2de;
+}
+
+.product-price{
+    font-size: 20px;
+    color: #fcf2de;
+}
+
+

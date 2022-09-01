@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "title": "Lemonade",
+      "price": 160,
+      "image": "https://i03.fotocdn.net/s129/c402d811a8036877/public_pin_l/2928763524.jpg",
+      "description": "Combine sugar and 1 cup water in a small saucepan. Stir to dissolve sugar while mixture comes to a boil. Set aside to cool slightly.",
+      "category": "other",
+      "id": 2
+    },
+    {
+      "title": "Iced Coffee Sweet Heaven",
+      "price": 160,
+      "image": "https://pantryandlarder.com/wp-content/uploads/2021/02/sweeten-iced-coffee-recipe-feature.png",
+      "description": "hgfgjj",
+      "category": "coffee",
+      "id": 3
+    },
+    {
+      "title": "Cappuccino",
+      "price": 140,
+      "image": "https://media.delius-klasing.de/images/f_auto,c_fill,g_face:auto,h_600,w_1068/q_auto:eco,e_improve/bike/M4009216/das-steckt-in-espresso-cappuccino-kaffee-co-",
+      "description": "The physical appearance of a modern cappuccino with espresso créma and steamed milk is a result of a long evolution of the drink.",
+      "category": "coffee",
+      "id": 4
+    },
+    {
+      "title": "Iced Coffee Sweet Heaven",
+      "price": 160,
+      "image": "https://pantryandlarder.com/wp-content/uploads/2021/02/sweeten-iced-coffee-recipe-feature.png",
+      "description": "hgfgjj",
+      "category": "coffee",
+      "id": 5
+    },
+    {
+      "title": "Iced Coffee Sweet Heaven",
+      "price": 160,
+      "image": "https://pantryandlarder.com/wp-content/uploads/2021/02/sweeten-iced-coffee-recipe-feature.png",
+      "description": "hgfgjj",
+      "category": "coffee",
+      "id": 6
+    },
+    {
+      "title": "Iced Coffee Sweet Heaven",
+      "price": 160,
+      "image": "https://pantryandlarder.com/wp-content/uploads/2021/02/sweeten-iced-coffee-recipe-feature.png",
+      "description": "hgfgjj",
+      "category": "coffee",
+      "id": 7
+    },
+    {
+      "title": "Iced Coffee Sweet Heaven",
+      "price": 160,
+      "image": "https://pantryandlarder.com/wp-content/uploads/2021/02/sweeten-iced-coffee-recipe-feature.png",
+      "description": "hgfgjj",
+      "category": "coffee",
+      "id": 8
+    },
+    {
+      "title": "Iced Coffee Sweet Heaven",
+      "price": 160,
+      "image": "https://pantryandlarder.com/wp-content/uploads/2021/02/sweeten-iced-coffee-recipe-feature.png",
+      "description": "hgfgjj",
+      "category": "coffee",
+      "id": 9
+    }
+  ],
+  "recommend": [
+    {
+      "title": "Iced Coffee Sweet Heaven",
+      "price": 160,
+      "image": "https://pantryandlarder.com/wp-content/uploads/2021/02/sweeten-iced-coffee-recipe-feature.png",
+      "description": "hgfgjj",
+      "category": "coffee",
+      "id": 3
+    },
+    {
+      "title": "Cappuccino",
+      "price": 140,
+      "image": "https://media.delius-klasing.de/images/f_auto,c_fill,g_face:auto,h_600,w_1068/q_auto:eco,e_improve/bike/M4009216/das-steckt-in-espresso-cappuccino-kaffee-co-",
+      "description": "The physical appearance of a modern cappuccino with espresso créma and steamed milk is a result of a long evolution of the drink.",
+      "category": "coffee",
+      "id": 4
+    },
+    {
+      "title": "Lemonade",
+      "price": 160,
+      "image": "https://i03.fotocdn.net/s129/c402d811a8036877/public_pin_l/2928763524.jpg",
+      "description": "Combine sugar and 1 cup water in a small saucepan. Stir to dissolve sugar while mixture comes to a boil. Set aside to cool slightly.",
+      "category": "other",
+      "id": 2
+    }
+  ]
+}

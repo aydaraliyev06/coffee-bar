@@ -1,0 +1,119 @@
+.Auth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-auth{
+    width: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.65;
+    background: url('https://lifehacker.ru/wp-content/uploads/2013/10/48888_1485427871-scaled.jpg');
+    height: 200px;
+    border-radius: 0px 0px 120px 120px;
+}
+
+.auth-icon{
+    width: 300px;
+    position: relative;
+    bottom: 130px;
+}
+
+.auth-box-btn{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.auth-btn-log{
+    position: relative;
+    left: 20px;
+    width: 120px;
+    height: 35px;
+    background: #FCF2D9;
+    color: #834D1E;
+    border: 2px solid #834D1E;
+    font-size: 19px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-radius: 30px 0px 0px 30px;
+    transition: all 0.1s 0.1s;
+}
+
+.auth-btn-active{
+    position: relative;
+    width: 125px;
+    font-size: 20px;
+    height: 40px;
+    border: 0;
+    background: #834D1E;
+    color: #FCF2D9;
+    border-radius: 30px;
+    z-index: 10;
+}
+
+.auth-btn-sing{
+    position: relative;
+    background: #FCF2D9;
+    right: 20px;
+    cursor: pointer;
+    width: 120px;
+    border: 2px solid #834D1E;
+    height: 35px;
+    border-left: 0;
+    font-size: 19px;
+    border-radius: 0px 30px 30px 0px;
+    transition: all 0.1s 0.1s;
+}
+
+.auth-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FCF2D9;
+    height: 400px;
+    padding: 40px 40px 0px 40px ;
+    border-radius: 40px;
+    border: 2px solid #834D1E;
+    row-gap: 10px;
+}
+
+.auth-box-inp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.inp-auth{
+    width: 205px;
+    padding-left: 15px;
+    height: 30px;
+    border: 0;
+    background: #FCF2D9;
+    border-bottom: 2px solid #834D1E;
+    color: #834D1E;
+    font-size: 17px;
+}
+
+.inp-auth::placeholder{
+    font-size: 17px;
+    color: #834D1E;
+}
+
+.btn-auth{
+    width: 225px;
+    height: 45px;
+    font-size: 17px;
+    border: 0;
+    color: #FCF2D9;
+    border-radius: 30px;
+    background: #834D1E;
+    transition: all 0.1s 0.1s;
+    cursor: pointer;
+}
+
+.btn-auth:hover{
+    transform: scale(1.3, 1.3);
+}
+

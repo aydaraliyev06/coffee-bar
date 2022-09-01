@@ -1,0 +1,67 @@
+.recommend{
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.drink-menu-products{
+    width: 60vw;
+    display: flex;
+    background: #FCF2DE;
+    border-radius: 50px 50px 0px 0px;
+    justify-content: center;
+    border: 2px solid #834D1E;
+    flex-wrap: wrap;
+    border-bottom: 0;
+    padding-bottom: 40px;
+}
+
+.drink-menu-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    column-gap: 20px;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.drink-menu-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.drink-menu-text{
+    width: 350px;
+}
+
+.drink-left{
+    display: flex;
+    column-gap: 35px;
+}
+
+.drink-menu-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.drink-menu-title{
+    margin-top: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.drink-menu-sub{
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.drink-menu-price{
+    text-decoration: none;
+    font-size: 27px;
+    margin-bottom: 20px;
+}

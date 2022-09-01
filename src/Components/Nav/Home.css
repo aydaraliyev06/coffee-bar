@@ -1,0 +1,33 @@
+.burger-menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border: 0;
+    background: #834D1E;
+    cursor: pointer;
+}
+
+.home{
+    position: fixed;
+    width: 85.4%;
+    z-index: 2;
+    padding: 30px 140px;
+    background: #834D1E;
+    top: 0;
+}
+
+.home-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-top-title{
+    color: #FCF2D9;
+}
+
+.home-left{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}

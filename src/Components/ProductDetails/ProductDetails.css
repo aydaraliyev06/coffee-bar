@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Roboto:wght@700&display=swap');
+
+.product-details-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.product-details{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    border-radius: 70px;
+}
+
+@media all and (max-width: 1400px){
+    .product-details{
+        width: 70% !important;
+    }
+}
+
+.product-details-back{
+    width: 93%;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 40px;
+    height: 750px;
+    background: linear-gradient(180deg, rgba(2,0,36,0) 55%, #ffeec1 100%);
+}
+
+.product-details-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details-btn{
+    background: none;
+    border: 0;
+}
+
+.product-details-menu{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.product-details-bottom{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.product-details-title{
+    font-size: 46px;
+}
+
+.product-details-sub{
+    font-size: 25px;
+}
+
+.product-details-price{
+    font-size: 35px;
+}
+
+.product-details-bottom-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details-amount{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.product-details-amount-btn{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+    background: #834d1e;
+    color: #fcf2d9;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-details-amount-p{
+    font-size: 24px;
+    width: 20px;
+    text-align: center;
+}
+
+.product-details-btn-buy{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    color: #fcf2d9;
+    background: #834d1e;
+    transition: all 0.2s 0.2s;
+    font-size: 18px
+}
+
+.product-details-btn-buy:hover{
+    transform: scale(1.3, 1.3);
+}
